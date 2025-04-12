@@ -78,7 +78,7 @@ const Footer = () => {
             </p>
             <p className="text-white font-medium mb-4">otaviodevelop@gmail.com</p>
             <a
-              href="https://wa.me/+5521995444161"
+              href="mailto:otaviodevelop@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-block"
