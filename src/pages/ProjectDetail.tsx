@@ -411,7 +411,7 @@ const ProjectDetail = () => {
               Posso ajudá-lo a criar um site personalizado com o mesmo nível de qualidade e atenção aos detalhes
             </p>
             <a
-              href="https://wa.me/5215555555555?text=Olá,%20vi%20seu%20projeto%20de%20{project.title}%20e%20gostaria%20de%20algo%20similar"
+              href="https://wa.me/+5521995444161?text=Olá,%20vi%20seu%20projeto%20de%20{project.title}%20e%20gostaria%20de%20algo%20similar"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2"
