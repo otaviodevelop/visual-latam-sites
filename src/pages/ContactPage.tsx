@@ -194,7 +194,7 @@ const ContactPage = () => {
           <div className="text-center max-w-3xl mx-auto glass-card p-8 rounded-xl">
             <h2 className="text-3xl font-bold mb-4">Ainda tem dúvidas?</h2>
             <p className="text-lg text-tech-gray mb-6">
-              Me ligue agora mesmo para discutir seu projeto 
+              Me chame agora mesmo no Whatsapp para discutir seu projeto 
               e resolver todas as suas perguntas sem compromisso
             </p>
             <a
@@ -203,7 +203,7 @@ const ContactPage = () => {
               rel="noopener noreferrer"
               className="tech-btn"
             >
-              Ligar agora
+              Chamar no Whatsapp
             </a>
           </div>
         </div>
