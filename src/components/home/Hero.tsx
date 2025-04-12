@@ -56,7 +56,7 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
             <a
-              href="https://wa.me/5215555555555?text=Olá,%20estou%20interessado%20em%20um%20site%20personalizado"
+              href="https://wa.me/+5521995444161?text=Olá,%20estou%20interessado%20em%20um%20site%20personalizado"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn flex items-center justify-center gap-2"
