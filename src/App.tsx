@@ -25,14 +25,14 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/servicios" element={<ServicesPage />} />
+          <Route path="/servicos" element={<ServicesPage />} />
           <Route path="/tecnologias" element={<TechnologiesPage />} />
-          <Route path="/proyectos" element={<ProjectsPage />} />
-          <Route path="/proyectos/:projectId" element={<ProjectDetail />} />
-          <Route path="/sobre-mi" element={<AboutPage />} />
-          <Route path="/contacto" element={<ContactPage />} />
-          <Route path="/politica-privacidad" element={<PrivacyPolicyPage />} />
-          <Route path="/terminos-servicio" element={<TermsOfServicePage />} />
+          <Route path="/projetos" element={<ProjectsPage />} />
+          <Route path="/projetos/:projectId" element={<ProjectDetail />} />
+          <Route path="/sobre-mim" element={<AboutPage />} />
+          <Route path="/contato" element={<ContactPage />} />
+          <Route path="/politica-privacidade" element={<PrivacyPolicyPage />} />
+          <Route path="/termos-servico" element={<TermsOfServicePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

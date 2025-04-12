@@ -1,3 +1,4 @@
+
 import Layout from "@/components/layout/Layout";
 import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
 
@@ -5,46 +6,46 @@ const ServicesPage = () => {
   const services = [
     {
       id: "sites",
-      title: "Sitios Institucionales",
+      title: "Sites Institucionais",
       description:
-        "Sitios web modernos y profesionales diseñados para representar la identidad de tu marca o empresa con un enfoque en la experiencia del usuario y el diseño impactante.",
+        "Sites modernos e profissionais projetados para representar a identidade da sua marca ou empresa com foco na experiência do usuário e design impactante.",
       features: [
-        "Diseño personalizado y único",
-        "Experiencia de usuario intuitiva",
-        "Adaptable a todos los dispositivos",
-        "Animaciones y efectos visuales",
-        "Optimizado para velocidad",
-        "Integración con redes sociales",
+        "Design personalizado e único",
+        "Experiência de usuário intuitiva",
+        "Adaptável a todos os dispositivos",
+        "Animações e efeitos visuais",
+        "Otimizado para velocidade",
+        "Integração com redes sociais",
       ],
-      image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Sitios+Institucionales",
+      image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Sites+Institucionais",
     },
     {
       id: "landing",
       title: "Landing Pages",
       description:
-        "Páginas de aterrizaje estratégicamente diseñadas para convertir visitantes en clientes, con un enfoque en los llamados a la acción y la presentación efectiva de tus productos o servicios.",
+        "Páginas de destino estrategicamente projetadas para converter visitantes em clientes, com foco em chamadas para ação e apresentação efetiva dos seus produtos ou serviços.",
       features: [
-        "Enfoque en conversión",
-        "Llamados a la acción estratégicos",
-        "Diseño persuasivo",
-        "Formularios optimizados",
-        "Carga rápida para reducir rebotes",
-        "Pruebas A/B para maximizar resultados",
+        "Foco em conversão",
+        "Chamadas para ação estratégicas",
+        "Design persuasivo",
+        "Formulários otimizados",
+        "Carregamento rápido para reduzir rejeições",
+        "Testes A/B para maximizar resultados",
       ],
       image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Landing+Pages",
     },
     {
       id: "portfolios",
-      title: "Portfolios Profesionales",
+      title: "Portfólios Profissionais",
       description:
-        "Portfolios visuales que destacan tu trabajo de manera profesional y atractiva, ideales para fotógrafos, diseñadores, arquitectos y otros profesionales creativos.",
+        "Portfólios visuais que destacam seu trabalho de maneira profissional e atrativa, ideais para fotógrafos, designers, arquitetos e outros profissionais criativos.",
       features: [
-        "Galerías visuales impactantes",
-        "Organización por categorías o proyectos",
-        "Transiciones fluidas entre proyectos",
-        "Funcionalidades de zoom y navegación",
-        "Integración con plataformas creativas",
-        "Diseño que complementa tu trabajo",
+        "Galerias visuais impactantes",
+        "Organização por categorias ou projetos",
+        "Transições fluidas entre projetos",
+        "Funcionalidades de zoom e navegação",
+        "Integração com plataformas criativas",
+        "Design que complementa seu trabalho",
       ],
       image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Portfolios",
     }
@@ -52,35 +53,35 @@ const ServicesPage = () => {
 
   const nonServices = [
     {
-      title: "E-commerce y tiendas online",
+      title: "E-commerce e lojas online",
       description:
-        "No desarrollo tiendas online completas o sistemas de e-commerce que requieran gestión de inventario, pagos en línea y funcionalidades avanzadas de comercio.",
+        "Não desenvolvo lojas online completas ou sistemas de e-commerce que necessitem de gestão de inventário, pagamentos online e funcionalidades avançadas de comércio.",
     },
     {
-      title: "Mantenimiento de sitios existentes",
+      title: "Manutenção de sites existentes",
       description:
-        "Mi enfoque está en crear nuevos proyectos desde cero, no en modificar o mantener sitios web existentes desarrollados por terceros.",
+        "Meu foco está em criar novos projetos do zero, não em modificar ou manter sites existentes desenvolvidos por terceiros.",
     },
     {
-      title: "Aplicaciones web complejas",
+      title: "Aplicações web complexas",
       description:
-        "No desarrollo aplicaciones web que requieran lógica de backend compleja, bases de datos avanzadas o funcionalidades tipo SaaS.",
+        "Não desenvolvo aplicações web que necessitem de lógica de backend complexa, bancos de dados avançados ou funcionalidades tipo SaaS.",
     },
     {
-      title: "Modificaciones de plantillas",
+      title: "Modificações de templates",
       description:
-        "No trabajo con plantillas prediseñadas ni realizo modificaciones a temas existentes. Todos mis proyectos son diseñados y desarrollados a medida.",
+        "Não trabalho com templates pré-desenhados nem realizo modificações em temas existentes. Todos os meus projetos são desenhados e desenvolvidos sob medida.",
     },
     {
-      title: "Blogs y sistemas de contenido",
+      title: "Blogs e sistemas de conteúdo",
       description:
-        "No desarrollo blogs que requieran panel administrativo, sistema de gestión de contenidos o funcionalidades complejas de publicación.",
+        "Não desenvolvo blogs que necessitem de painel administrativo, sistema de gestão de conteúdo ou funcionalidades complexas de publicação.",
     }
   ];
 
   return (
     <Layout>
-      {/* Hero de Servicios */}
+      {/* Hero de Serviços */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-tech-purple/20 rounded-full filter blur-3xl"></div>
         <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-tech-blue/20 rounded-full filter blur-3xl"></div>
@@ -88,17 +89,17 @@ const ServicesPage = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-6">
-              <span className="gradient-text">Servicios</span> de Desarrollo
+              <span className="gradient-text">Serviços</span> de Desenvolvimento
             </h1>
             <p className="text-xl text-tech-gray">
-              Me especializo en crear experiencias web visuales y modernas, 
-              trabajando exclusivamente con tecnologías frontend de última generación.
+              Me especializo em criar experiências web visuais e modernas, 
+              trabalhando exclusivamente com tecnologias frontend de última geração.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Lista de Servicios */}
+      {/* Lista de Serviços */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           {services.map((service, index) => (
@@ -129,12 +130,12 @@ const ServicesPage = () => {
                 
                 <div className="mt-8">
                   <a
-                    href={`https://wa.me/5215555555555?text=Hola,%20me%20interesa%20un%20servicio%20de%20${encodeURIComponent(service.title)}`}
+                    href={`https://wa.me/5215555555555?text=Olá,%20tenho%20interesse%20em%20um%20serviço%20de%20${encodeURIComponent(service.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="tech-btn inline-flex items-center gap-2"
                   >
-                    Solicitar este servicio
+                    Solicitar este serviço
                     <ArrowRight size={18} />
                   </a>
                 </div>
@@ -144,13 +145,13 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Lo que NO hago */}
+      {/* O que eu NÃO faço */}
       <section className="py-16 bg-tech-darker">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="section-title">Lo que NO hago</h2>
+            <h2 className="section-title">O que eu NÃO faço</h2>
             <p className="section-subtitle mt-4">
-              Para asegurar la máxima calidad en mi trabajo, me especializo exclusivamente en ciertos tipos de proyectos
+              Para garantir a máxima qualidade no meu trabalho, me especializo exclusivamente em certos tipos de projetos
             </p>
           </div>
           
@@ -176,18 +177,18 @@ const ServicesPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              ¿Tienes un proyecto en mente?
+              Tem um projeto em mente?
             </h2>
             <p className="text-xl text-tech-gray mb-8">
-              Cuéntame sobre tu idea y juntos podemos crear una experiencia web única que destaque tu marca
+              Me conte sobre sua ideia e juntos podemos criar uma experiência web única que destaque sua marca
             </p>
             <a
-              href="https://wa.me/5215555555555?text=Hola,%20me%20interesa%20hablar%20sobre%20un%20proyecto"
+              href="https://wa.me/5215555555555?text=Olá,%20tenho%20interesse%20em%20conversar%20sobre%20um%20projeto"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2"
             >
-              Hablemos de tu proyecto
+              Vamos conversar sobre seu projeto
               <ArrowRight size={18} />
             </a>
           </div>
