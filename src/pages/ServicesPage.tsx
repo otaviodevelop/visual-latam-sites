@@ -17,7 +17,7 @@ const ServicesPage = () => {
         "Otimizado para velocidade",
         "Integração com redes sociais",
       ],
-      image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Sites+Institucionais",
+      image: "/gl.png",
     },
     {
       id: "landing",
