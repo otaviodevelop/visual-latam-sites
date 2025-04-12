@@ -25,9 +25,9 @@ const Technologies = () => {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title">Tecnologías Modernas</h2>
+          <h2 className="section-title">Tecnologias Modernas</h2>
           <p className="section-subtitle mt-4">
-            Trabajo solo con tecnologías actuales que garantizan rendimiento y diseño de alta calidad
+            Trabalho apenas com tecnologias atuais que garantem desempenho e design de alta qualidade
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const Technologies = () => {
               </svg>
             }
             title="React.js"
-            description="Estructura de componentes reutilizables para interfaces de usuario modernas y reactivas"
+            description="Estrutura de componentes reutilizáveis para interfaces de usuário modernas e reativas"
           />
           
           <TechCard
@@ -76,7 +76,7 @@ const Technologies = () => {
               </svg>
             }
             title="Tailwind CSS"
-            description="Framework CSS utilitario para crear diseños personalizados con gran eficiencia"
+            description="Framework CSS utilitário para criar designs personalizados com grande eficiência"
           />
           
           <TechCard
@@ -100,7 +100,7 @@ const Technologies = () => {
               </svg>
             }
             title="Framer Motion"
-            description="Biblioteca para crear animaciones fluidas e interactivas de alto rendimiento"
+            description="Biblioteca para criar animações fluidas e interativas de alto desempenho"
           />
 
           <TechCard
@@ -122,7 +122,7 @@ const Technologies = () => {
               </svg>
             }
             title="Lottie React"
-            description="Animaciones vectoriales ligeras para interfaces de usuario dinámicas"
+            description="Animações vetoriais leves para interfaces de usuário dinâmicas"
           />
 
           <TechCard
@@ -143,7 +143,7 @@ const Technologies = () => {
               </svg>
             }
             title="React Router DOM"
-            description="Navegación fluida entre páginas sin recarga del navegador"
+            description="Navegação fluida entre páginas sem recarregar o navegador"
           />
 
           <TechCard
@@ -165,7 +165,7 @@ const Technologies = () => {
               </svg>
             }
             title="React Player"
-            description="Reproducción de video integrada con controles personalizables"
+            description="Reprodução de vídeo integrada com controles personalizáveis"
           />
         </div>
 
@@ -174,7 +174,7 @@ const Technologies = () => {
             to="/tecnologias"
             className="tech-btn inline-flex items-center gap-2"
           >
-            Conocer más tecnologías
+            Conhecer mais tecnologias
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

@@ -5,55 +5,55 @@ const PrivacyPolicyPage = () => {
   return (
     <Layout>
       <section className="container mx-auto px-4 py-16">
-        <h1 className="text-3xl md:text-4xl font-bold gradient-text mb-10">Política de Privacidad</h1>
+        <h1 className="text-3xl md:text-4xl font-bold gradient-text mb-10">Política de Privacidade</h1>
         
         <div className="prose prose-lg prose-invert max-w-none">
           <p className="text-tech-gray mb-6">
-            Última actualización: {new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
+            Última atualização: {new Date().toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Información que recopilamos</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Informações que coletamos</h2>
           <p className="text-tech-gray mb-4">
-            En Otávio Augusto, recopilamos información personal que usted nos proporciona directamente cuando utiliza nuestro sitio web, como su nombre, dirección de correo electrónico, número de teléfono y cualquier otra información que decida compartir cuando se pone en contacto con nosotros a través de nuestros formularios.
+            Na Otávio Augusto, coletamos informações pessoais que você nos fornece diretamente quando utiliza nosso site, como seu nome, endereço de e-mail, número de telefone e qualquer outra informação que decida compartilhar quando entra em contato conosco através dos nossos formulários.
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">2. Cómo utilizamos su información</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">2. Como utilizamos suas informações</h2>
           <p className="text-tech-gray mb-4">
-            Utilizamos la información recopilada para:
+            Utilizamos as informações coletadas para:
           </p>
           <ul className="list-disc pl-6 text-tech-gray mb-6 space-y-2">
-            <li>Responder a sus consultas y proporcionar el servicio solicitado</li>
-            <li>Mejorar nuestro sitio web y la experiencia del usuario</li>
-            <li>Enviar información sobre nuestros servicios que pueda ser de su interés (solo si ha dado su consentimiento)</li>
-            <li>Cumplir con obligaciones legales</li>
+            <li>Responder às suas consultas e fornecer o serviço solicitado</li>
+            <li>Melhorar nosso site e a experiência do usuário</li>
+            <li>Enviar informações sobre nossos serviços que possam ser do seu interesse (apenas se você tiver dado seu consentimento)</li>
+            <li>Cumprir com obrigações legais</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">3. Protección de datos</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">3. Proteção de dados</h2>
           <p className="text-tech-gray mb-4">
-            Implementamos medidas de seguridad diseñadas para proteger su información personal. Sin embargo, ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro.
+            Implementamos medidas de segurança projetadas para proteger suas informações pessoais. No entanto, nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro.
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">4. Cookies y tecnologías similares</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">4. Cookies e tecnologias semelhantes</h2>
           <p className="text-tech-gray mb-4">
-            Nuestro sitio web puede utilizar "cookies" para mejorar la experiencia del usuario. Estas cookies son pequeños archivos de texto que se almacenan en su dispositivo. Puede configurar su navegador para que rechace todas las cookies o para que le avise cuando se envía una cookie.
+            Nosso site pode utilizar "cookies" para melhorar a experiência do usuário. Esses cookies são pequenos arquivos de texto que são armazenados no seu dispositivo. Você pode configurar seu navegador para recusar todos os cookies ou para avisá-lo quando um cookie é enviado.
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. Derechos del usuario</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">5. Direitos do usuário</h2>
           <p className="text-tech-gray mb-4">
-            Usted tiene derecho a acceder, corregir o eliminar sus datos personales. Si desea ejercer estos derechos, póngase en contacto con nosotros a través de contacto@otavioaugusto.com.
+            Você tem direito a acessar, corrigir ou excluir seus dados pessoais. Se deseja exercer esses direitos, entre em contato conosco através de contato@otavioaugusto.com.
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">6. Cambios en esta política</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">6. Alterações nesta política</h2>
           <p className="text-tech-gray mb-4">
-            Podemos actualizar nuestra Política de Privacidad periódicamente. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de "última actualización".
+            Podemos atualizar nossa Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a data de "última atualização".
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8 mb-4">7. Contacto</h2>
+          <h2 className="text-2xl font-bold text-white mt-8 mb-4">7. Contato</h2>
           <p className="text-tech-gray mb-4">
-            Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos en:
+            Se você tiver alguma dúvida sobre esta Política de Privacidade, pode entrar em contato conosco em:
           </p>
           <p className="text-white font-medium mb-6">
-            contacto@otavioaugusto.com
+            contato@otavioaugusto.com
           </p>
         </div>
       </section>

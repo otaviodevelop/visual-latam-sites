@@ -46,12 +46,12 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           {[
-            ["Inicio", "/"],
-            ["Servicios", "/servicios"],
-            ["Tecnologías", "/tecnologias"],
-            ["Proyectos", "/proyectos"],
-            ["Sobre Mí", "/sobre-mi"],
-            ["Contacto", "/contacto"],
+            ["Início", "/"],
+            ["Serviços", "/servicos"],
+            ["Tecnologias", "/tecnologias"],
+            ["Projetos", "/projetos"],
+            ["Sobre Mim", "/sobre-mim"],
+            ["Contato", "/contato"],
           ].map(([title, url]) => (
             <NavLink
               key={url}
@@ -73,7 +73,7 @@ const Navbar = () => {
         <button
           className="md:hidden text-white hover:text-tech-purple"
           onClick={toggleMenu}
-          aria-label={isMenuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -90,12 +90,12 @@ const Navbar = () => {
       >
         <div className="flex flex-col items-center justify-center h-full space-y-8 text-xl">
           {[
-            ["Inicio", "/"],
-            ["Servicios", "/servicios"],
-            ["Tecnologías", "/tecnologias"],
-            ["Proyectos", "/proyectos"],
-            ["Sobre Mí", "/sobre-mi"],
-            ["Contacto", "/contacto"],
+            ["Início", "/"],
+            ["Serviços", "/servicos"],
+            ["Tecnologias", "/tecnologias"],
+            ["Projetos", "/projetos"],
+            ["Sobre Mim", "/sobre-mim"],
+            ["Contato", "/contato"],
           ].map(([title, url]) => (
             <NavLink
               key={url}

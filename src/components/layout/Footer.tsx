@@ -10,9 +10,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold gradient-text mb-4">Otávio Augusto</h3>
             <p className="text-tech-gray mb-4">
-              Desarrollador front-end especializado en crear experiencias web
-              modernas, rápidas y visualmente impactantes para clientes en
-              Latinoamérica.
+              Desenvolvedor front-end especializado em criar experiências web
+              modernas, rápidas e visualmente impactantes para clientes no
+              Brasil e na América Latina.
             </p>
             <div className="flex space-x-4">
               <a
@@ -49,15 +49,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">Navegación</h3>
+            <h3 className="text-lg font-bold text-white mb-4">Navegação</h3>
             <ul className="space-y-2">
               {[
-                ["Inicio", "/"],
-                ["Servicios", "/servicios"],
-                ["Tecnologías", "/tecnologias"],
-                ["Proyectos", "/proyectos"],
-                ["Sobre Mí", "/sobre-mi"],
-                ["Contacto", "/contacto"],
+                ["Início", "/"],
+                ["Serviços", "/servicos"],
+                ["Tecnologias", "/tecnologias"],
+                ["Projetos", "/projetos"],
+                ["Sobre Mim", "/sobre-mim"],
+                ["Contato", "/contato"],
               ].map(([title, url]) => (
                 <li key={url}>
                   <NavLink
@@ -72,9 +72,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">Contáctame</h3>
+            <h3 className="text-lg font-bold text-white mb-4">Fale comigo</h3>
             <p className="text-tech-gray mb-2">
-              ¿Tienes un proyecto en mente? ¡Hablemos!
+              Tem um projeto em mente? Vamos conversar!
             </p>
             <p className="text-white font-medium mb-4">otaviodevelop@gmail.com</p>
             <a
@@ -83,27 +83,27 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="tech-btn inline-block"
             >
-              Enviar mensaje
+              Enviar mensagem
             </a>
           </div>
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-tech-gray text-sm">
-            © {new Date().getFullYear()} Otávio Augusto. Todos los derechos reservados.
+            © {new Date().getFullYear()} Otávio Augusto. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
-              href="/politica-privacidad"
+              href="/politica-privacidade"
               className="text-tech-gray hover:text-tech-purple text-sm transition-colors"
             >
-              Política de Privacidad
+              Política de Privacidade
             </a>
             <a
-              href="/terminos-servicio"
+              href="/termos-servico"
               className="text-tech-gray hover:text-tech-purple text-sm transition-colors"
             >
-              Términos de Servicio
+              Termos de Serviço
             </a>
           </div>
         </div>

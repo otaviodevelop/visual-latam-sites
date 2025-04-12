@@ -24,23 +24,23 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulamos envío del formulario
+    // Simulamos envio do formulário
     setTimeout(() => {
-      // Construir mensaje de WhatsApp
+      // Construir mensagem de WhatsApp
       const message = encodeURIComponent(
-        `¡Hola Otávio! Mi nombre es ${formData.name}. Me interesa un proyecto de tipo ${formData.projectType}. ${formData.message}`
+        `Olá Otávio! Meu nome é ${formData.name}. Estou interessado em um projeto do tipo ${formData.projectType}. ${formData.message}`
       );
       
-      // Redirigir a WhatsApp
+      // Redirecionar para WhatsApp
       window.open(`https://wa.me/5215555555555?text=${message}`, "_blank");
       
-      // Mostrar notificación
+      // Mostrar notificação
       toast({
-        title: "¡Formulario enviado!",
-        description: "Te estamos redirigiendo a WhatsApp para continuar la conversación.",
+        title: "Formulário enviado!",
+        description: "Estamos redirecionando para o WhatsApp para continuar a conversa.",
       });
       
-      // Resetear formulario
+      // Resetar formulário
       setFormData({
         name: "",
         email: "",
@@ -57,7 +57,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-2">
           <label htmlFor="name" className="block text-sm font-medium">
-            Nombre completo
+            Nome completo
           </label>
           <input
             type="text"
@@ -67,13 +67,13 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-tech-purple/50 transition"
-            placeholder="Tu nombre"
+            placeholder="Seu nome"
           />
         </div>
 
         <div className="space-y-2">
           <label htmlFor="email" className="block text-sm font-medium">
-            Correo electrónico
+            E-mail
           </label>
           <input
             type="email"
@@ -83,14 +83,14 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-tech-purple/50 transition"
-            placeholder="correo@ejemplo.com"
+            placeholder="email@exemplo.com"
           />
         </div>
       </div>
 
       <div className="mt-6 space-y-2">
         <label htmlFor="projectType" className="block text-sm font-medium">
-          Tipo de proyecto
+          Tipo de projeto
         </label>
         <select
           id="projectType"
@@ -102,18 +102,18 @@ const ContactForm = () => {
           style={{ backgroundColor: "rgba(255, 255, 255, 0.05)" }}
         >
           <option value="" disabled className="bg-tech-dark text-white">
-            Selecciona una opción
+            Selecione uma opção
           </option>
-          <option value="Sitio institucional" className="bg-tech-dark text-white">Sitio institucional</option>
+          <option value="Site institucional" className="bg-tech-dark text-white">Site institucional</option>
           <option value="Landing page" className="bg-tech-dark text-white">Landing page</option>
-          <option value="Portfolio" className="bg-tech-dark text-white">Portfolio</option>
-          <option value="Otro" className="bg-tech-dark text-white">Otro</option>
+          <option value="Portfólio" className="bg-tech-dark text-white">Portfólio</option>
+          <option value="Outro" className="bg-tech-dark text-white">Outro</option>
         </select>
       </div>
 
       <div className="mt-6 space-y-2">
         <label htmlFor="message" className="block text-sm font-medium">
-          Mensaje
+          Mensagem
         </label>
         <textarea
           id="message"
@@ -123,7 +123,7 @@ const ContactForm = () => {
           required
           rows={5}
           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-tech-purple/50 transition"
-          placeholder="Cuéntame sobre tu proyecto..."
+          placeholder="Conte-me sobre seu projeto..."
         ></textarea>
       </div>
 
@@ -135,10 +135,10 @@ const ContactForm = () => {
             isSubmitting ? "opacity-70 cursor-not-allowed" : ""
           }`}
         >
-          {isSubmitting ? "Enviando..." : "Enviar mensaje"}
+          {isSubmitting ? "Enviando..." : "Enviar mensagem"}
         </button>
         <p className="text-center text-sm text-tech-gray mt-4">
-          ¡Te respondo en menos de 1 hora por WhatsApp!
+          Respondo em menos de 1 hora pelo WhatsApp!
         </p>
       </div>
     </form>

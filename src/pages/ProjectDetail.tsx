@@ -3,13 +3,13 @@ import { useParams, NavLink } from "react-router-dom";
 import { ArrowLeft, ArrowRight, ExternalLink, Check } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
-// Datos de ejemplo para proyectos
+// Dados de exemplo para projetos
 const projects = [
   {
-    id: "proyecto-1",
-    title: "Estudio Jurídico Méndez",
+    id: "projeto-1",
+    title: "Estúdio Jurídico Méndez",
     description:
-      "Landing page moderna para bufete de abogados con enfoque en convertir visitas en consultas. El diseño fue creado para transmitir profesionalismo y confianza, elementos clave para un estudio jurídico.",
+      "Landing page moderna para escritório de advocacia com foco em converter visitas em consultas. O design foi criado para transmitir profissionalismo e confiança, elementos chave para um estúdio jurídico.",
     image: "/mendez.png",
     mockups: [
       "/mockup1.png",
@@ -18,172 +18,172 @@ const projects = [
     ],
     category: "Landing Page",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
-    client: "Estudio Méndez & Asociados",
+    client: "Estúdio Méndez & Associados",
     duration: "3 semanas",
     year: "2023",
     challenge:
-      "El cliente necesitaba renovar su imagen digital para atraer a un público más joven sin perder la seriedad que caracteriza a su despacho. La página debía tener un alto índice de conversión para consultas iniciales.",
+      "O cliente precisava renovar sua imagem digital para atrair um público mais jovem sem perder a seriedade que caracteriza seu escritório. A página deveria ter um alto índice de conversão para consultas iniciais.",
     solution:
-      "Desarrollamos una landing page con un diseño moderno pero profesional, implementando secciones estratégicas como testimonios, áreas de práctica y un formulario de contacto optimizado para convertir visitas en consultas.",
+      "Desenvolvemos uma landing page com um design moderno mas profissional, implementando seções estratégicas como depoimentos, áreas de prática e um formulário de contato otimizado para converter visitas em consultas.",
     results: [
-      "Aumento del 40% en consultas online",
-      "Reducción del 25% en la tasa de rebote",
-      "Mejora del 60% en tiempo de carga",
-      "Experiencia consistente en todos los dispositivos",
+      "Aumento de 40% em consultas online",
+      "Redução de 25% na taxa de rejeição",
+      "Melhoria de 60% no tempo de carregamento",
+      "Experiência consistente em todos os dispositivos",
     ],
     liveUrl: "https://mendez-legal.vercel.app/",
-    nextProject: "proyecto-2",
-    prevProject: "proyecto-3",
+    nextProject: "projeto-2",
+    prevProject: "projeto-3",
   },
   {
-    id: "proyecto-2",
-    title: "Consultora Financiera GL",
+    id: "projeto-2",
+    title: "Consultoria Financeira GL",
     description:
-      "Sitio web institucional con animaciones personalizadas para empresa de consultoría financiera. El diseño se enfoca en transmitir confiabilidad y experiencia en el mercado financiero.",
+      "Site institucional com animações personalizadas para empresa de consultoria financeira. O design se concentra em transmitir confiabilidade e experiência no mercado financeiro.",
     image: "/gl.png",
     mockups: [
       "/gl_mockup1.png",
       "/gl_mockup2.png",
       "/gl_mockup3.png",
     ],
-    category: "Sitio Institucional",
+    category: "Site Institucional",
     technologies: ["React.js", "Tailwind CSS", "Lottie"],
     client: "Grupo Liderma Consultores",
     duration: "6 semanas",
     year: "2024",
     challenge:
-      "La consultora buscaba diferenciarse visualmente de la competencia mientras comunicaba efectivamente sus servicios complejos a potenciales clientes de forma clara y atractiva.",
+      "A consultoria buscava se diferenciar visualmente da concorrência enquanto comunicava efetivamente seus serviços complexos para potenciais clientes de forma clara e atrativa.",
     solution:
-      "Creamos un sitio web con animaciones personalizadas que ilustran conceptos financieros complejos de forma visual e intuitiva, implementando un diseño elegante con toques animados que destacan la información clave.",
+      "Criamos um site com animações personalizadas que ilustram conceitos financeiros complexos de forma visual e intuitiva, implementando um design elegante com toques animados que destacam as informações-chave.",
     results: [
-      "Incremento del 35% en tiempo de permanencia",
-      "Aumento del 50% en solicitudes de información",
-      "Mejora en la percepción de marca según encuestas",
-      "Mayor engagement en secciones con animaciones",
+      "Aumento de 35% no tempo de permanência",
+      "Incremento de 50% nas solicitações de informação",
+      "Melhoria na percepção de marca segundo pesquisas",
+      "Maior engajamento nas seções com animações",
     ],
-    liveUrl: "https://gl-financiera.vercel.app/",
-    nextProject: "proyecto-3",
-    prevProject: "proyecto-1",
+    liveUrl: "https://gl-financeira.vercel.app/",
+    nextProject: "projeto-3",
+    prevProject: "projeto-1",
   },
   {
-    id: "proyecto-3",
-    title: "Arquitecta Julia Vega",
+    id: "projeto-3",
+    title: "Arquiteta Julia Vega",
     description:
-      "Portfolio visual con galería de proyectos para estudio de arquitectura contemporánea. El sitio fue diseñado para resaltar los proyectos de la arquitecta con un enfoque minimalista que destaca las imágenes.",
+      "Portfólio visual com galeria de projetos para estúdio de arquitetura contemporânea. O site foi projetado para destacar os projetos da arquiteta com uma abordagem minimalista que realça as imagens.",
     image: "/juliavega.png",
     mockups: [
       "/julia_mk1.png",
       "/julia_mk2.png",
       "/julia_mk3.png",
     ],
-    category: "Portfolio",
+    category: "Portfólio",
     technologies: ["React.js", "Framer Motion", "Tailwind CSS"],
-    client: "Estudio Vega Arquitectura",
+    client: "Estúdio Vega Arquitetura",
     duration: "4 semanas",
     year: "2023",
     challenge:
-      "La arquitecta necesitaba un portfolio que mostrara sus proyectos de manera impactante, con un enfoque en la experiencia visual y la navegación intuitiva entre diferentes obras.",
+      "A arquiteta precisava de um portfólio que mostrasse seus projetos de maneira impactante, com foco na experiência visual e na navegação intuitiva entre diferentes obras.",
     solution:
-      "Desarrollamos un portfolio minimalista con transiciones fluidas entre proyectos, galerías con zoom detallado y reproductor de video integrado para mostrar recorridos virtuales de las obras más importantes.",
+      "Desenvolvemos um portfólio minimalista com transições fluidas entre projetos, galerias com zoom detalhado e reprodutor de vídeo integrado para mostrar percursos virtuais das obras mais importantes.",
     results: [
-      "Tiempo promedio de visita aumentó un 70%",
-      "Incremento del 45% en solicitudes de presupuesto",
-      "Mejora en la presentación de proyectos ante clientes",
-      "Experiencia visual premium en dispositivos de alta resolución",
+      "Tempo médio de visita aumentou em 70%",
+      "Aumento de 45% nas solicitações de orçamento",
+      "Melhoria na apresentação de projetos para clientes",
+      "Experiência visual premium em dispositivos de alta resolução",
     ],
     liveUrl: "https://julia-vega.vercel.app/",
-    nextProject: "proyecto-1",
-    prevProject: "proyecto-2",
+    nextProject: "projeto-1",
+    prevProject: "projeto-2",
   },
   {
-    id: "proyecto-5",
+    id: "projeto-5",
     title: "Fotógrafo Carlos Ramírez",
     description:
-      "Portfolio fotográfico con galerías interactivas y transiciones fluidas entre proyectos para fotógrafo profesional especializado en retratos y eventos.",
+      "Portfólio fotográfico com galerias interativas e transições fluidas entre projetos para fotógrafo profissional especializado em retratos e eventos.",
     image: "/ramirez.png",
     mockups: [
       "/ramirez_mk1.png",
       "/ramirez_mk2.png",
       "/ramirez_mk3.png",
     ],
-    category: "Portfolio",
+    category: "Portfólio",
     technologies: ["React.js", "Framer Motion"],
     client: "Carlos Ramírez Photography",
     duration: "4 semanas",
     year: "2022",
     challenge:
-      "El fotógrafo necesitaba una plataforma que mostrara su trabajo con la máxima calidad posible sin comprometer la velocidad de carga, y que presentara sus fotografías de forma inmersiva.",
+      "O fotógrafo precisava de uma plataforma que mostrasse seu trabalho com a máxima qualidade possível sem comprometer a velocidade de carregamento, e que apresentasse suas fotografias de forma imersiva.",
     solution:
-      "Implementamos un sistema de galerías con carga progresiva de imágenes en alta resolución, efectos de transición suaves y visualización a pantalla completa con navegación intuitiva entre colecciones.",
+      "Implementamos um sistema de galerias com carregamento progressivo de imagens em alta resolução, efeitos de transição suaves e visualização em tela cheia com navegação intuitiva entre coleções.",
     results: [
-      "Aumento del 65% en solicitudes de sesión",
-      "Mejora en la presentación ante clientes corporativos",
-      "Mayor alcance internacional de su trabajo",
-      "Compatibilidad con dispositivos de alta resolución",
+      "Aumento de 65% nas solicitações de sessão",
+      "Melhoria na apresentação para clientes corporativos",
+      "Maior alcance internacional do seu trabalho",
+      "Compatibilidade com dispositivos de alta resolução",
     ],
     liveUrl: "https://ramirez-fotografo.vercel.app/",
-    nextProject: "proyecto-6",
-    prevProject: "proyecto-4",
+    nextProject: "projeto-6",
+    prevProject: "projeto-4",
   },
   {
-    id: "proyecto-6",
+    id: "projeto-6",
     title: "Academia de Idiomas GlobalTalk",
     description:
-      "Sitio web para academia de idiomas con secciones informativas y formulario de contacto, diseñado para atraer estudiantes y presentar claramente los programas disponibles.",
+      "Site para academia de idiomas com seções informativas e formulário de contato, projetado para atrair estudantes e apresentar claramente os programas disponíveis.",
     image: "/globaltalk.png",
     mockups: [
       "/globalmk1.png",
       "/globalmk2.png",
       "/globalmk3.png",
     ],
-    category: "Sitio Institucional",
+    category: "Site Institucional",
     technologies: ["React.js", "Tailwind CSS"],
     client: "GlobalTalk Languages",
     duration: "5 semanas",
     year: "2022",
     challenge:
-      "La academia necesitaba un sitio web que presentara claramente su amplia oferta de cursos y niveles, facilitando la inscripción de nuevos estudiantes y destacando sus metodologías de enseñanza.",
+      "A academia precisava de um site que apresentasse claramente sua ampla oferta de cursos e níveis, facilitando a inscrição de novos estudantes e destacando suas metodologias de ensino.",
     solution:
-      "Desarrollamos una plataforma con buscador inteligente de cursos, sistema de filtrado por idiomas y niveles, testimonios de estudiantes y un proceso simplificado para solicitar información o inscripción.",
+      "Desenvolvemos uma plataforma com buscador inteligente de cursos, sistema de filtragem por idiomas e níveis, depoimentos de estudantes e um processo simplificado para solicitar informações ou inscrição.",
     results: [
-      "Incremento del 70% en solicitudes de información",
-      "Aumento del 50% en inscripciones online",
-      "Reducción del tiempo para encontrar cursos específicos",
-      "Mejora en la comunicación de metodologías y beneficios",
+      "Aumento de 70% nas solicitações de informação",
+      "Incremento de 50% nas inscrições online",
+      "Redução do tempo para encontrar cursos específicos",
+      "Melhoria na comunicação de metodologias e benefícios",
     ],
     liveUrl: "https://globaltalk-learn-connect.vercel.app/",
-    nextProject: "proyecto-7",
-    prevProject: "proyecto-5",
+    nextProject: "projeto-7",
+    prevProject: "projeto-5",
   },
   {
-    id: "proyecto-7",
+    id: "projeto-7",
     title: "EcoVeritas Consulting",
     description:
-      "Sitio institucional para consultora de sostenibilidad y medio ambiente, con diseño profesional y moderno enfocado en fortalecer la presencia online, atraer clientes corporativos y comunicar sus áreas de actuación.",
+      "Site institucional para consultoria de sustentabilidade e meio ambiente, com design profissional e moderno focado em fortalecer a presença online, atrair clientes corporativos e comunicar suas áreas de atuação.",
     image: "/ecoveritas.png",
     mockups: [
       "/ecoveritasmk1.png",
       "/ecoveritasmk2.png",
       "/ecoveritasmk3.png",
     ],
-    category: "Sitio Institucional",
+    category: "Site Institucional",
     technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
     client: "EcoVeritas Consulting",
     duration: "5 semanas",
     year: "2025",
     challenge:
-      "EcoVeritas necesitaba una plataforma clara y moderna que transmitiera confianza, profesionalismo y compromiso ambiental. Su objetivo era aumentar el alcance digital, atraer nuevas empresas interesadas en sus servicios y facilitar el contacto directo.",
+      "A EcoVeritas precisava de uma plataforma clara e moderna que transmitisse confiança, profissionalismo e compromisso ambiental. Seu objetivo era aumentar o alcance digital, atrair novas empresas interessadas em seus serviços e facilitar o contato direto.",
     solution:
-      "Diseñamos un sitio institucional con navegación intuitiva, diseño visual alineado a la temática ecológica y contenido estratégico. Incluimos secciones de servicios, preguntas frecuentes, casos de éxito y un formulario de contacto optimizado.",
+      "Projetamos um site institucional com navegação intuitiva, design visual alinhado à temática ecológica e conteúdo estratégico. Incluímos seções de serviços, perguntas frequentes, casos de sucesso e um formulário de contato otimizado.",
     results: [
-      "Aumento del 60% en contactos de empresas interesadas",
-      "Mejora en el posicionamiento de marca como referente en sostenibilidad",
-      "Reducción de consultas repetitivas gracias a una sección de preguntas frecuentes",
-      "Incremento en la participación en eventos y charlas gracias a la visibilidad online",
+      "Aumento de 60% em contatos de empresas interessadas",
+      "Melhoria no posicionamento da marca como referência em sustentabilidade",
+      "Redução de consultas repetitivas graças a uma seção de perguntas frequentes",
+      "Incremento na participação em eventos e palestras graças à visibilidade online",
     ],
     liveUrl: "https://eco-veritas-phi.vercel.app/",
-    nextProject: "proyecto-1",
-    prevProject: "proyecto-6",
+    nextProject: "projeto-1",
+    prevProject: "projeto-6",
   },
 ];
 
@@ -195,15 +195,15 @@ const ProjectDetail = () => {
     return (
       <Layout>
         <div className="container mx-auto px-4 py-16 text-center">
-          <h1 className="text-3xl font-bold mb-4">Proyecto no encontrado</h1>
+          <h1 className="text-3xl font-bold mb-4">Projeto não encontrado</h1>
           <p className="text-tech-gray mb-8">
-            El proyecto que estás buscando no existe o ha sido removido.
+            O projeto que você está procurando não existe ou foi removido.
           </p>
           <NavLink
-            to="/proyectos"
+            to="/projetos"
             className="tech-btn inline-flex items-center gap-2"
           >
-            Ver todos los proyectos
+            Ver todos os projetos
             <ArrowRight size={18} />
           </NavLink>
         </div>
@@ -213,7 +213,7 @@ const ProjectDetail = () => {
 
   return (
     <Layout>
-      {/* Hero del Proyecto */}
+      {/* Hero do Projeto */}
       <section className="relative pt-16 pb-24 overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-tech-purple/20 rounded-full filter blur-3xl"></div>
         <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-tech-blue/20 rounded-full filter blur-3xl"></div>
@@ -222,11 +222,11 @@ const ProjectDetail = () => {
           <div className="flex flex-col md:flex-row justify-between items-start mb-8">
             <div>
               <NavLink
-                to="/proyectos"
+                to="/projetos"
                 className="inline-flex items-center text-tech-gray hover:text-tech-purple transition-colors mb-4"
               >
                 <ArrowLeft size={16} className="mr-2" />
-                Volver a proyectos
+                Voltar para projetos
               </NavLink>
               
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins leading-tight mb-4">
@@ -258,12 +258,12 @@ const ProjectDetail = () => {
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2 mt-6 md:mt-0"
             >
-              Visitar sitio
+              Visitar site
               <ExternalLink size={16} />
             </a>
           </div>
           
-          {/* Imagen principal */}
+          {/* Imagem principal */}
           <div className="glass-card p-2 rounded-xl overflow-hidden shadow-2xl mt-12">
             <img
               src={project.image}
@@ -274,13 +274,13 @@ const ProjectDetail = () => {
         </div>
       </section>
 
-      {/* Detalles del Proyecto */}
+      {/* Detalhes do Projeto */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Información del Proyecto */}
+            {/* Informação do Projeto */}
             <div className="glass-card p-8 rounded-xl">
-              <h2 className="text-2xl font-bold mb-6">Información del Proyecto</h2>
+              <h2 className="text-2xl font-bold mb-6">Informações do Projeto</h2>
               
               <div className="space-y-4">
                 <div>
@@ -289,22 +289,22 @@ const ProjectDetail = () => {
                 </div>
                 
                 <div>
-                  <h3 className="text-sm text-tech-gray">Categoría</h3>
+                  <h3 className="text-sm text-tech-gray">Categoria</h3>
                   <p className="text-lg font-medium">{project.category}</p>
                 </div>
                 
                 <div>
-                  <h3 className="text-sm text-tech-gray">Año</h3>
+                  <h3 className="text-sm text-tech-gray">Ano</h3>
                   <p className="text-lg font-medium">{project.year}</p>
                 </div>
                 
                 <div>
-                  <h3 className="text-sm text-tech-gray">Duración</h3>
+                  <h3 className="text-sm text-tech-gray">Duração</h3>
                   <p className="text-lg font-medium">{project.duration}</p>
                 </div>
                 
                 <div>
-                  <h3 className="text-sm text-tech-gray">Tecnologías</h3>
+                  <h3 className="text-sm text-tech-gray">Tecnologias</h3>
                   <div className="flex flex-wrap gap-2 mt-1">
                     {project.technologies.map((tech, index) => (
                       <span
@@ -319,18 +319,18 @@ const ProjectDetail = () => {
               </div>
             </div>
             
-            {/* Descripción del Proyecto */}
+            {/* Descrição do Projeto */}
             <div className="md:col-span-2 glass-card p-8 rounded-xl">
-              <h2 className="text-2xl font-bold mb-6">Sobre el Proyecto</h2>
+              <h2 className="text-2xl font-bold mb-6">Sobre o Projeto</h2>
               
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-xl font-medium mb-3">El Desafío</h3>
+                  <h3 className="text-xl font-medium mb-3">O Desafio</h3>
                   <p className="text-tech-gray">{project.challenge}</p>
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-medium mb-3">La Solución</h3>
+                  <h3 className="text-xl font-medium mb-3">A Solução</h3>
                   <p className="text-tech-gray">{project.solution}</p>
                 </div>
                 
@@ -354,7 +354,7 @@ const ProjectDetail = () => {
       {/* Mockups */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8">Mockups del Proyecto</h2>
+          <h2 className="text-2xl font-bold mb-8">Mockups do Projeto</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {project.mockups.map((mockup, index) => (
@@ -370,30 +370,30 @@ const ProjectDetail = () => {
         </div>
       </section>
       
-      {/* Navegación entre proyectos */}
+      {/* Navegação entre projetos */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row justify-between items-center glass-card p-6 rounded-xl">
             <NavLink
-              to={`/proyectos/${project.prevProject}`}
+              to={`/projetos/${project.prevProject}`}
               className="flex items-center text-tech-gray hover:text-tech-purple transition-colors"
             >
               <ArrowLeft size={18} className="mr-2" />
-              Proyecto anterior
+              Projeto anterior
             </NavLink>
             
             <NavLink
-              to="/proyectos"
+              to="/projetos"
               className="my-4 sm:my-0 text-tech-purple hover:underline transition-colors"
             >
-              Ver todos los proyectos
+              Ver todos os projetos
             </NavLink>
             
             <NavLink
-              to={`/proyectos/${project.nextProject}`}
+              to={`/projetos/${project.nextProject}`}
               className="flex items-center text-tech-gray hover:text-tech-purple transition-colors"
             >
-              Proyecto siguiente
+              Próximo projeto
               <ArrowRight size={18} className="ml-2" />
             </NavLink>
           </div>
@@ -405,18 +405,18 @@ const ProjectDetail = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
-              ¿Te gustaría un proyecto similar?
+              Gostaria de um projeto similar?
             </h2>
             <p className="text-tech-gray text-lg mb-8">
-              Puedo ayudarte a crear un sitio web personalizado con el mismo nivel de calidad y atención al detalle
+              Posso ajudá-lo a criar um site personalizado com o mesmo nível de qualidade e atenção aos detalhes
             </p>
             <a
-              href="https://wa.me/5215555555555?text=Hola,%20vi%20tu%20proyecto%20de%20{project.title}%20y%20me%20gustaría%20algo%20similar"
+              href="https://wa.me/5215555555555?text=Olá,%20vi%20seu%20projeto%20de%20{project.title}%20e%20gostaria%20de%20algo%20similar"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2"
             >
-              Solicitar un proyecto como este
+              Solicitar um projeto como este
               <ArrowRight size={18} />
             </a>
           </div>

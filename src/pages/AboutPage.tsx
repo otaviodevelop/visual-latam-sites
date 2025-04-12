@@ -3,19 +3,19 @@ import Layout from "@/components/layout/Layout";
 import { ArrowRight } from "lucide-react";
 
 const AboutPage = () => {
-  // Datos para las habilidades
+  // Dados para as habilidades
   const skills = [
-    { name: "Diseño UI/UX", level: 95 },
+    { name: "Design UI/UX", level: 95 },
     { name: "React.js", level: 90 },
     { name: "Tailwind CSS", level: 95 },
     { name: "Framer Motion", level: 85 },
     { name: "Lottie Animations", level: 80 },
-    { name: "Optimización Frontend", level: 85 },
+    { name: "Otimização Frontend", level: 85 },
   ];
 
   return (
     <Layout>
-      {/* Hero Sobre Mí */}
+      {/* Hero Sobre Mim */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-tech-purple/20 rounded-full filter blur-3xl"></div>
         <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-tech-blue/20 rounded-full filter blur-3xl"></div>
@@ -34,39 +34,39 @@ const AboutPage = () => {
             
             <div className="w-full md:w-7/12">
               <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-6">
-                Hola, soy <span className="gradient-text">Otávio Augusto</span>
+                Olá, sou <span className="gradient-text">Otávio Augusto</span>
               </h1>
               
               <p className="text-xl text-tech-gray mb-6 leading-relaxed">
-                Desarrollador frontend especializado en crear experiencias web 
-                visualmente impactantes y altamente funcionales para clientes 
-                en Latinoamérica.
+                Desenvolvedor frontend especializado em criar experiências web 
+                visualmente impactantes e altamente funcionais para clientes 
+                na América Latina.
               </p>
               
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="py-2 px-4 bg-white/5 rounded-full">
-                  <span className="text-tech-gray">Nacionalidad:</span>
-                  <span className="ml-2 font-medium">Brasileño</span>
+                  <span className="text-tech-gray">Nacionalidade:</span>
+                  <span className="ml-2 font-medium">Brasileiro</span>
                 </div>
                 
                 <div className="py-2 px-4 bg-white/5 rounded-full">
                   <span className="text-tech-gray">Idiomas:</span>
-                  <span className="ml-2 font-medium">Español, Portugués</span>
+                  <span className="ml-2 font-medium">Português, Espanhol</span>
                 </div>
                 
                 <div className="py-2 px-4 bg-white/5 rounded-full">
-                  <span className="text-tech-gray">Experiencia:</span>
-                  <span className="ml-2 font-medium">+5 años</span>
+                  <span className="text-tech-gray">Experiência:</span>
+                  <span className="ml-2 font-medium">+5 anos</span>
                 </div>
               </div>
               
               <a
-                href="https://wa.me/+5521995444161?text=Hola%20Otávio,%20vi%20tu%20sitio%20web%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto"
+                href="https://wa.me/+5521995444161?text=Olá%20Otávio,%20vi%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="tech-btn inline-flex items-center gap-2"
               >
-                Contactar
+                Contatar
                 <ArrowRight size={18} />
               </a>
             </div>
@@ -74,31 +74,31 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Mi Historia */}
+      {/* Minha História */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto glass-card p-8 rounded-xl">
-            <h2 className="text-3xl font-bold mb-6">Mi historia</h2>
+            <h2 className="text-3xl font-bold mb-6">Minha história</h2>
             
             <div className="space-y-6 text-tech-gray leading-relaxed">
               <p>
-                Soy brasileño de nacimiento, pero mi carrera profesional me ha conectado profundamente con México y toda Latinoamérica. Desde muy joven, desarrollé una pasión por el diseño web y la tecnología, lo que me llevó a especializarme en el desarrollo frontend.
+                Sou brasileiro de nascimento, e minha carreira profissional me conectou profundamente com toda a América Latina. Desde muito jovem, desenvolvi uma paixão pelo design web e tecnologia, o que me levou a me especializar em desenvolvimento frontend.
               </p>
               
               <p>
-                Mi viaje comenzó hace más de 5 años cuando creé mi primer sitio web para una pequeña empresa local. Desde entonces, he tenido la oportunidad de trabajar con clientes de diversos países en Latinoamérica, permitiéndome sumergirme en diferentes culturas y adaptarme a las necesidades específicas de cada mercado.
+                Minha jornada começou há mais de 5 anos quando criei meu primeiro site para uma pequena empresa local. Desde então, tive a oportunidade de trabalhar com clientes de diversos países da América Latina, permitindo-me mergulhar em diferentes culturas e me adaptar às necessidades específicas de cada mercado.
               </p>
               
               <p>
-                Me enamoré de la cultura mexicana durante un proyecto colaborativo con una agencia de Ciudad de México, y desde entonces he mantenido un vínculo especial con el país y sus clientes. Mi objetivo es seguir construyendo puentes digitales entre empresas latinoamericanas y sus audiencias a través de experiencias web memorables.
+                Me apaixonei pela diversidade cultural durante projetos colaborativos com agências em diferentes países, e desde então mantenho um vínculo especial com clientes de toda região. Meu objetivo é continuar construindo pontes digitais entre empresas latinas e seus públicos através de experiências web memoráveis.
               </p>
               
               <p className="font-medium italic text-white border-l-4 border-tech-purple pl-4 py-2">
-                "No solo construyo sitios web, sino experiencias visuales que conectan marcas con personas. Cada línea de código es una oportunidad para crear algo extraordinario."
+                "Não apenas construo sites, mas experiências visuais que conectam marcas com pessoas. Cada linha de código é uma oportunidade para criar algo extraordinário."
               </p>
               
               <p>
-                Me especializo exclusivamente en el desarrollo frontend visual, enfocándome en crear sitios estáticos de alto impacto. Esta especialización me permite ofrecer la máxima calidad en cada proyecto, concentrándome en lo que mejor sé hacer: crear interfaces hermosas, rápidas y funcionales.
+                Me especializo exclusivamente no desenvolvimento frontend visual, focando em criar sites estáticos de alto impacto. Esta especialização me permite oferecer a máxima qualidade em cada projeto, concentrando-me no que sei fazer melhor: criar interfaces bonitas, rápidas e funcionais.
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ const AboutPage = () => {
       {/* Habilidades */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Mis habilidades</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Minhas habilidades</h2>
           
           <div className="max-w-3xl mx-auto">
             {skills.map((skill, index) => (
@@ -129,13 +129,13 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Mi Enfoque */}
+      {/* Meu Enfoque */}
       <section className="py-16 bg-tech-darker">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="section-title">Mi enfoque profesional</h2>
+            <h2 className="section-title">Meu enfoque profissional</h2>
             <p className="section-subtitle mt-4">
-              Lo que me hace diferente como desarrollador frontend
+              O que me torna diferente como desenvolvedor frontend
             </p>
           </div>
           
@@ -163,12 +163,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Especialización total
+                Especialização total
               </h3>
               <p className="text-tech-gray">
-                Me enfoco exclusivamente en el desarrollo frontend visual, 
-                lo que me permite dominar completamente estas tecnologías y 
-                ofrecer resultados excepcionales en cada proyecto.
+                Me concentro exclusivamente no desenvolvimento frontend visual, 
+                o que me permite dominar completamente essas tecnologias e 
+                oferecer resultados excepcionais em cada projeto.
               </p>
             </div>
             
@@ -192,12 +192,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Atención al detalle
+                Atenção aos detalhes
               </h3>
               <p className="text-tech-gray">
-                Cada pixel importa. Me obsesiono con los pequeños detalles 
-                que hacen la diferencia entre un sitio web promedio y una 
-                experiencia digital excepcional.
+                Cada pixel importa. Me obsessiono com os pequenos detalhes 
+                que fazem a diferença entre um site comum e uma 
+                experiência digital excepcional.
               </p>
             </div>
             
@@ -219,12 +219,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Diseño centrado en el usuario
+                Design centrado no usuário
               </h3>
               <p className="text-tech-gray">
-                Creo sitios web que no solo se ven bien, sino que también 
-                proporcionan una experiencia intuitiva y agradable para los 
-                usuarios finales.
+                Crio sites que não apenas são bonitos, mas também 
+                proporcionam uma experiência intuitiva e agradável para os 
+                usuários finais.
               </p>
             </div>
             
@@ -245,12 +245,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Calidad premium
+                Qualidade premium
               </h3>
               <p className="text-tech-gray">
-                No me conformo con lo básico. Cada proyecto que entrego cumple 
-                con los más altos estándares de calidad en diseño, animaciones 
-                y rendimiento.
+                Não me contento com o básico. Cada projeto que entrego cumpre 
+                com os mais altos padrões de qualidade em design, animações 
+                e desempenho.
               </p>
             </div>
             
@@ -272,12 +272,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Personalización completa
+                Personalização completa
               </h3>
               <p className="text-tech-gray">
-                No utilizo plantillas prediseñadas. Cada sitio web es creado 
-                desde cero, personalizado para reflejar la identidad única de 
-                tu marca o proyecto.
+                Não utilizo templates pré-desenhados. Cada site é criado 
+                do zero, personalizado para refletir a identidade única da 
+                sua marca ou projeto.
               </p>
             </div>
             
@@ -300,12 +300,12 @@ const AboutPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">
-                Conexión latinoamericana
+                Conexão latino-americana
               </h3>
               <p className="text-tech-gray">
-                Mi experiencia trabajando con clientes en México y toda Latinoamérica 
-                me permite entender las necesidades específicas del mercado y crear 
-                soluciones culturalmente relevantes.
+                Minha experiência trabalhando com clientes no Brasil e em toda a América Latina 
+                me permite entender as necessidades específicas do mercado e criar 
+                soluções culturalmente relevantes.
               </p>
             </div>
           </div>
@@ -317,19 +317,19 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">
-              ¿Listo para trabajar juntos?
+              Pronto para trabalharmos juntos?
             </h2>
             <p className="text-xl text-tech-gray mb-8">
-              Si buscas un desarrollador frontend que pueda crear una experiencia web 
-              única y memorable para tu marca, estoy aquí para ayudarte
+              Se você está procurando um desenvolvedor frontend que possa criar uma experiência web 
+              única e memorável para sua marca, estou aqui para ajudar
             </p>
             <a
-              href="https://wa.me/+5521995444161?text=Hola%20Otávio,%20me%20gustaría%20hablar%20sobre%20un%20proyecto"
+              href="https://wa.me/+5521995444161?text=Olá%20Otávio,%20gostaria%20de%20conversar%20sobre%20um%20projeto"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2"
             >
-              Hablemos de tu proyecto
+              Vamos falar sobre seu projeto
               <ArrowRight size={18} />
             </a>
           </div>

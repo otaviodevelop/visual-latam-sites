@@ -3,28 +3,28 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
-// Datos de ejemplo para proyectos
+// Dados de exemplo para projetos
 const projects = [
   {
-    id: "proyecto-1",
-    title: "Estudio Jurídico Méndez",
-    description: "Landing page moderna para bufete de abogados",
+    id: "projeto-1",
+    title: "Estúdio Jurídico Méndez",
+    description: "Landing page moderna para escritório de advocacia",
     image: "/mendez.png",
     category: "Landing Page",
   },
   {
-    id: "proyecto-2",
-    title: "Consultora Financiera GL",
-    description: "Sitio web institucional con animaciones personalizadas",
+    id: "projeto-2",
+    title: "Consultoria Financeira GL",
+    description: "Site institucional com animações personalizadas",
     image: "/gl.png",
-    category: "Sitio Institucional",
+    category: "Site Institucional",
   },
   {
-    id: "proyecto-3",
-    title: "Arquitecta Julia Vega",
-    description: "Portfolio visual con galería de proyectos",
+    id: "projeto-3",
+    title: "Arquiteta Julia Vega",
+    description: "Portfólio visual com galeria de projetos",
     image: "/juliavega.png",
-    category: "Portfolio",
+    category: "Portfólio",
   },
 ];
 
@@ -35,9 +35,9 @@ const ProjectsShowcase = () => {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title">Proyectos Destacados</h2>
+          <h2 className="section-title">Projetos Destacados</h2>
           <p className="section-subtitle mt-4">
-            Diseño personalizado y experiencias visuales únicas para cada cliente
+            Design personalizado e experiências visuais únicas para cada cliente
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const ProjectsShowcase = () => {
           {projects.map((project) => (
             <NavLink
               key={project.id}
-              to={`/proyectos/${project.id}`}
+              to={`/projetos/${project.id}`}
               className="block glass-card overflow-hidden rounded-lg group glow-effect"
               onMouseEnter={() => setHoveredProject(project.id)}
               onMouseLeave={() => setHoveredProject(null)}
@@ -67,7 +67,7 @@ const ProjectsShowcase = () => {
                 </h3>
                 <p className="text-tech-gray mb-4">{project.description}</p>
                 <div className="flex items-center text-tech-purple">
-                  <span className="text-sm font-medium">Ver proyecto</span>
+                  <span className="text-sm font-medium">Ver projeto</span>
                   <ArrowRight
                     size={16}
                     className={`ml-2 transition-transform duration-300 ${
@@ -82,10 +82,10 @@ const ProjectsShowcase = () => {
 
         <div className="text-center mt-12">
           <NavLink
-            to="/proyectos"
+            to="/projetos"
             className="tech-btn-outline inline-flex items-center gap-2"
           >
-            Ver todos los proyectos
+            Ver todos os projetos
             <ArrowRight size={18} />
           </NavLink>
         </div>

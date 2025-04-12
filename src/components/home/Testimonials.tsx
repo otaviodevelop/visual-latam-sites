@@ -2,36 +2,36 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 
-// Datos de ejemplo para testimonios
+// Dados de exemplo para depoimentos
 const testimonials = [
   {
     id: 1,
     name: "Carolina Méndez",
-    role: "Directora de Marketing",
-    company: "Estudio Méndez",
+    role: "Diretora de Marketing",
+    company: "Estúdio Méndez",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
     content:
-      "Otávio transformó completamente nuestra presencia en línea. El sitio web que creó no solo es visualmente impactante, sino que también ha incrementado nuestras consultas en un 40%.",
+      "Otávio transformou completamente nossa presença online. O site que ele criou não só é visualmente impactante, como também aumentou nossas consultas em 40%.",
     stars: 5,
   },
   {
     id: 2,
     name: "Miguel Rodríguez",
     role: "CEO",
-    company: "Consultora GL",
+    company: "Consultoria GL",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     content:
-      "La atención al detalle y la calidad del trabajo de Otávio son impresionantes. Entendió perfectamente nuestra visión y la plasmó en un sitio web que nos diferencia completamente de la competencia.",
+      "A atenção aos detalhes e a qualidade do trabalho do Otávio são impressionantes. Ele entendeu perfeitamente nossa visão e a traduziu em um site que nos diferencia completamente da concorrência.",
     stars: 5,
   },
   {
     id: 3,
     name: "Julia Vega",
-    role: "Arquitecta",
-    company: "Estudio Vega",
+    role: "Arquiteta",
+    company: "Estúdio Vega",
     image: "https://randomuser.me/api/portraits/women/68.jpg",
     content:
-      "Como arquitecta, el aspecto visual es fundamental para mí. Otávio creó un portfolio que realmente hace justicia a mi trabajo, con animaciones elegantes y una experiencia de usuario excepcional.",
+      "Como arquiteta, o aspecto visual é fundamental para mim. Otávio criou um portfólio que realmente faz justiça ao meu trabalho, com animações elegantes e uma experiência de usuário excepcional.",
     stars: 5,
   },
   {
@@ -41,7 +41,7 @@ const testimonials = [
     company: "RA Photography",
     image: "https://randomuser.me/api/portraits/men/67.jpg",
     content:
-      "La capacidad de Otávio para traducir mis ideas en un diseño web funcional y hermoso ha sido clave para el crecimiento de mi negocio. Cada detalle está pensado para resaltar mi trabajo.",
+      "A capacidade do Otávio de traduzir minhas ideias em um design web funcional e bonito foi fundamental para o crescimento do meu negócio. Cada detalhe é pensado para destacar meu trabalho.",
     stars: 5,
   },
 ];
@@ -107,9 +107,9 @@ const Testimonials = () => {
       
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">Lo que dicen mis clientes</h2>
+          <h2 className="section-title">O que dizem meus clientes</h2>
           <p className="section-subtitle mt-4">
-            Experiencias reales de quienes confiaron en mi trabajo para crear sus sitios web
+            Experiências reais de quem confiou no meu trabalho para criar seus sites
           </p>
         </div>
 
@@ -123,7 +123,7 @@ const Testimonials = () => {
             <button
               onClick={prevTestimonial}
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 backdrop-blur-sm text-white transition-colors"
-              aria-label="Testimonio anterior"
+              aria-label="Depoimento anterior"
             >
               <ChevronLeft size={20} />
             </button>
@@ -133,13 +133,13 @@ const Testimonials = () => {
             <button
               onClick={nextTestimonial}
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 backdrop-blur-sm text-white transition-colors"
-              aria-label="Testimonio siguiente"
+              aria-label="Próximo depoimento"
             >
               <ChevronRight size={20} />
             </button>
           </div>
 
-          {/* Testimonios */}
+          {/* Depoimentos */}
           <div className="overflow-hidden">
             <div
               className="transition-all duration-500 ease-out"
@@ -162,7 +162,7 @@ const Testimonials = () => {
                   />
                 </div>
                 
-                {/* Contenido */}
+                {/* Conteúdo */}
                 <div>
                   <div className="flex mb-4">
                     {[...Array(testimonials[activeIndex].stars)].map((_, i) => (
@@ -202,7 +202,7 @@ const Testimonials = () => {
                     : "bg-gray-500/30"
                 }`}
                 onClick={() => setActiveIndex(index)}
-                aria-label={`Ir al testimonio ${index + 1}`}
+                aria-label={`Ir para depoimento ${index + 1}`}
               ></button>
             ))}
           </div>

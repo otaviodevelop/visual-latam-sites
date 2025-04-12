@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react";
 const ContactPage = () => {
   return (
     <Layout>
-      {/* Hero de Contacto */}
+      {/* Hero de Contato */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-tech-purple/20 rounded-full filter blur-3xl"></div>
         <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-tech-blue/20 rounded-full filter blur-3xl"></div>
@@ -15,29 +15,29 @@ const ContactPage = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-6">
-              <span className="gradient-text">Contáctame</span>
+              <span className="gradient-text">Entre em contato</span>
             </h1>
             <p className="text-xl text-tech-gray">
-              ¿Tienes un proyecto en mente? Estoy listo para escuchar tus ideas y 
-              ayudarte a crear una experiencia web impactante
+              Tem um projeto em mente? Estou pronto para ouvir suas ideias e 
+              ajudar a criar uma experiência web impactante
             </p>
           </div>
         </div>
       </section>
 
-      {/* Formulario y Datos de Contacto */}
+      {/* Formulário e Dados de Contato */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Formulario */}
+            {/* Formulário */}
             <div className="w-full md:w-2/3">
-              <h2 className="text-2xl font-bold mb-6">Envíame un mensaje</h2>
+              <h2 className="text-2xl font-bold mb-6">Envie uma mensagem</h2>
               <ContactForm />
             </div>
             
-            {/* Info de Contacto */}
+            {/* Info de Contato */}
             <div className="w-full md:w-1/3">
-              <h2 className="text-2xl font-bold mb-6">Información de contacto</h2>
+              <h2 className="text-2xl font-bold mb-6">Informações de contato</h2>
               
               <div className="glass-card p-8 rounded-xl h-full">
                 <div className="space-y-8">
@@ -46,7 +46,7 @@ const ContactPage = () => {
                       <Mail size={18} />
                     </div>
                     <div>
-                      <h3 className="font-medium mb-1">Correo electrónico</h3>
+                      <h3 className="font-medium mb-1">E-mail</h3>
                       <a
                         href="mailto:otaviodevelop@gmail.com"
                         className="text-tech-gray hover:text-tech-purple transition-colors"
@@ -78,9 +78,9 @@ const ContactPage = () => {
                       <MapPin size={18} />
                     </div>
                     <div>
-                      <h3 className="font-medium mb-1">Ubicación</h3>
+                      <h3 className="font-medium mb-1">Localização</h3>
                       <p className="text-tech-gray">
-                        Brasil / Remoto en toda Latinoamérica
+                        Brasil / Remoto em toda América Latina
                       </p>
                     </div>
                   </div>
@@ -90,22 +90,22 @@ const ContactPage = () => {
                       <Clock size={18} />
                     </div>
                     <div>
-                      <h3 className="font-medium mb-1">Horario de atención</h3>
+                      <h3 className="font-medium mb-1">Horário de atendimento</h3>
                       <p className="text-tech-gray">
-                        Lunes a Viernes: 9:00 - 18:00 (GMT-6)
+                        Segunda a Sexta: 9:00 - 18:00 (GMT-3)
                       </p>
                     </div>
                   </div>
                 </div>
                 
                 <div className="border-t border-white/10 mt-8 pt-8">
-                  <h3 className="font-medium mb-3">Respuesta rápida</h3>
+                  <h3 className="font-medium mb-3">Resposta rápida</h3>
                   <p className="text-tech-gray mb-4">
-                    Te respondo en menos de 1 hora en días laborables
+                    Respondo em menos de 1 hora em dias úteis
                   </p>
                   <div className="flex gap-3">
                     <span className="inline-block w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
-                    <span className="text-sm text-tech-gray">Disponible para nuevos proyectos</span>
+                    <span className="text-sm text-tech-gray">Disponível para novos projetos</span>
                   </div>
                 </div>
               </div>
@@ -114,73 +114,73 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Preguntas Frecuentes */}
+      {/* Perguntas Frequentes */}
       <section className="py-16 bg-tech-darker">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="section-title">Preguntas Frecuentes</h2>
+            <h2 className="section-title">Perguntas Frequentes</h2>
             <p className="section-subtitle mt-4">
-              Respuestas a las dudas más comunes sobre mi trabajo
+              Respostas para as dúvidas mais comuns sobre meu trabalho
             </p>
           </div>
           
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Cuál es tu proceso de trabajo?</h3>
+                <h3 className="text-xl font-bold mb-2">Qual é seu processo de trabalho?</h3>
                 <p className="text-tech-gray">
-                  Mi proceso incluye una etapa de consulta inicial, planificación del proyecto, 
-                  diseño UI/UX, desarrollo frontend, pruebas y finalmente la entrega. Me mantengo 
-                  en constante comunicación durante todo el proceso para asegurar que el resultado 
-                  final cumpla con tus expectativas.
+                  Meu processo inclui uma etapa de consulta inicial, planejamento do projeto, 
+                  design UI/UX, desenvolvimento frontend, testes e finalmente a entrega. Me mantenho 
+                  em constante comunicação durante todo o processo para garantir que o resultado 
+                  final atenda às suas expectativas.
                 </p>
               </div>
               
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Cuánto tiempo toma desarrollar un sitio web?</h3>
+                <h3 className="text-xl font-bold mb-2">Quanto tempo leva para desenvolver um site?</h3>
                 <p className="text-tech-gray">
-                  El tiempo de desarrollo varía según la complejidad del proyecto. Una landing page 
-                  sencilla puede estar lista en 2-3 semanas, mientras que un sitio web más completo 
-                  puede tomar entre 4-8 semanas. Todo depende de los requerimientos específicos y 
-                  la cantidad de páginas y funcionalidades.
+                  O tempo de desenvolvimento varia de acordo com a complexidade do projeto. Uma landing page 
+                  simples pode estar pronta em 2-3 semanas, enquanto um site mais completo 
+                  pode levar entre 4-8 semanas. Tudo depende dos requisitos específicos e 
+                  da quantidade de páginas e funcionalidades.
                 </p>
               </div>
               
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Trabajas con clientes fuera de México?</h3>
+                <h3 className="text-xl font-bold mb-2">Você trabalha com clientes fora do Brasil?</h3>
                 <p className="text-tech-gray">
-                  ¡Absolutamente! Trabajo con clientes de toda Latinoamérica y más allá. La comunicación 
-                  se realiza principalmente por mensajería, lo que permite colaborar 
-                  efectivamente sin importar la ubicación.
+                  Absolutamente! Trabalho com clientes de toda a América Latina e além. A comunicação 
+                  é realizada principalmente por mensagens, o que permite colaborar 
+                  efetivamente independente da localização.
                 </p>
               </div>
               
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Qué necesito para comenzar un proyecto contigo?</h3>
+                <h3 className="text-xl font-bold mb-2">O que preciso para começar um projeto com você?</h3>
                 <p className="text-tech-gray">
-                  Para comenzar, necesito entender tu visión y objetivos. Es útil tener una idea clara 
-                  del propósito del sitio, el público objetivo, ejemplos de sitios que te gusten y cualquier 
-                  material de marca que puedas compartir (logo, colores, etc.). Luego de una consulta inicial, 
-                  prepararé una propuesta detallada.
+                  Para começar, preciso entender sua visão e objetivos. É útil ter uma ideia clara 
+                  do propósito do site, o público-alvo, exemplos de sites que você goste e qualquer 
+                  material de marca que possa compartilhar (logo, cores, etc.). Depois de uma consulta inicial, 
+                  prepararei uma proposta detalhada.
                 </p>
               </div>
               
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Ofreces mantenimiento después de la entrega?</h3>
+                <h3 className="text-xl font-bold mb-2">Você oferece manutenção após a entrega?</h3>
                 <p className="text-tech-gray">
-                  Sí, ofrezco servicios de mantenimiento para los sitios web que desarrollo, siempre que se contrate por separado. 
-                  Además, durante el primer mes después de la entrega, incluyo soporte técnico gratuito para asegurar que todo funcione correctamente. 
-                  Si necesitas mantenimiento continuo, podemos establecer un plan adaptado a tus necesidades.
+                  Sim, ofereço serviços de manutenção para os sites que desenvolvo, desde que contratados separadamente. 
+                  Além disso, durante o primeiro mês após a entrega, incluo suporte técnico gratuito para garantir que tudo funcione corretamente. 
+                  Se você precisar de manutenção contínua, podemos estabelecer um plano adaptado às suas necessidades.
                 </p>
               </div>
               
               <div className="glass-card p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-2">¿Cuáles son tus métodos de pago?</h3>
+                <h3 className="text-xl font-bold mb-2">Quais são seus métodos de pagamento?</h3>
                 <p className="text-tech-gray">
-                  Acepto pagos por Stripe y PayPal. Generalmente, 
-                  el proyecto se divide en fases con un anticipo inicial del 50% para comenzar y el resto 
-                  al finalizar el proyecto. Para proyectos más grandes, podemos establecer un cronograma 
-                  de pagos por etapas.
+                  Aceito pagamentos por Stripe e PayPal. Geralmente, 
+                  o projeto é dividido em fases com um adiantamento inicial de 50% para começar e o restante 
+                  ao finalizar o projeto. Para projetos maiores, podemos estabelecer um cronograma 
+                  de pagamentos por etapas.
                 </p>
               </div>
             </div>
@@ -192,10 +192,10 @@ const ContactPage = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto glass-card p-8 rounded-xl">
-            <h2 className="text-3xl font-bold mb-4">¿Aún tienes dudas?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ainda tem dúvidas?</h2>
             <p className="text-lg text-tech-gray mb-6">
-              Llámame ahora mismo para discutir tu proyecto 
-              y resolver todas tus preguntas sin compromiso
+              Me ligue agora mesmo para discutir seu projeto 
+              e resolver todas as suas perguntas sem compromisso
             </p>
             <a
               href="https://wa.me/+5521995444161"
@@ -203,7 +203,7 @@ const ContactPage = () => {
               rel="noopener noreferrer"
               className="tech-btn"
             >
-              Llamar ahora
+              Ligar agora
             </a>
           </div>
         </div>
