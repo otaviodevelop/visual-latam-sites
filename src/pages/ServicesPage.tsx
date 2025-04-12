@@ -47,7 +47,7 @@ const ServicesPage = () => {
         "Integração com plataformas criativas",
         "Design que complementa seu trabalho",
       ],
-      image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Portfolios",
+      image: "/juliavega.png",
     }
   ];
 
