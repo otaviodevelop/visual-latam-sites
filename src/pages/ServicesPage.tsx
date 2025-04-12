@@ -32,7 +32,7 @@ const ServicesPage = () => {
         "Carregamento rápido para reduzir rejeições",
         "Testes A/B para maximizar resultados",
       ],
-      image: "https://placehold.co/800x600/0F172A/FFFFFF?text=Landing+Pages",
+      image: "/mendez.png",
     },
     {
       id: "portfolios",
