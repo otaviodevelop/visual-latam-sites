@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -24,23 +23,19 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulamos envio do formulário
+    // Enviando para o número correto de contato
     setTimeout(() => {
-      // Construir mensagem de WhatsApp
       const message = encodeURIComponent(
-        `Olá Otávio! Meu nome é ${formData.name}. Estou interessado em um projeto do tipo ${formData.projectType}. ${formData.message}`
+        `Olá! Meu nome é ${formData.name}. Estou interessado em um projeto do tipo ${formData.projectType}. ${formData.message}`
       );
       
-      // Redirecionar para WhatsApp
-      window.open(`https://wa.me/5215555555555?text=${message}`, "_blank");
+      window.open(`https://wa.me/+5521995444161?text=${message}`, "_blank");
       
-      // Mostrar notificação
       toast({
         title: "Formulário enviado!",
         description: "Estamos redirecionando para o WhatsApp para continuar a conversa.",
       });
       
-      // Resetar formulário
       setFormData({
         name: "",
         email: "",
