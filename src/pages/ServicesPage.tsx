@@ -130,7 +130,7 @@ const ServicesPage = () => {
                 
                 <div className="mt-8">
                   <a
-                    href={`https://wa.me/5215555555555?text=Olá,%20tenho%20interesse%20em%20um%20serviço%20de%20${encodeURIComponent(service.title)}`}
+                    href={`https://wa.me/+5521995444161?text=Olá,%20tenho%20interesse%20em%20um%20serviço%20de%20${encodeURIComponent(service.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="tech-btn inline-flex items-center gap-2"
@@ -183,7 +183,7 @@ const ServicesPage = () => {
               Me conte sobre sua ideia e juntos podemos criar uma experiência web única que destaque sua marca
             </p>
             <a
-              href="https://wa.me/5215555555555?text=Olá,%20tenho%20interesse%20em%20conversar%20sobre%20um%20projeto"
+              href="https://wa.me/+5521995444161?text=Olá,%20tenho%20interesse%20em%20conversar%20sobre%20um%20projeto"
               target="_blank"
               rel="noopener noreferrer"
               className="tech-btn inline-flex items-center gap-2"
